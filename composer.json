@@ -1,16 +1,30 @@
 {
-    "name": "vagrantin/wordpress-develop",
-    "description": "WordPress Develop, provides phpunit tests for Wordpress",
-    "type": "project",
-    "require-dev": {
-        "phpunit/phpunit": "^6.1"
-    },
-    "license": "GPLv2 or later",
-    "authors": [
-        {
-            "name": "WordPress Community",
-            "homepage": "https://github.com/WordPress/wordpress-develop"
-        }
-    ],
-    "require": {}
+  "name": "vagrantin/wordpress-develop",
+  "description": "WordPress Develop, providing phpunit tests for Wordpress core and/or own project",
+  "keywords": [
+    "wordpress",
+    "dev"
+  ],
+  "type": "package",
+  "homepage": "http://wordpress.org/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "WordPress Community",
+      "homepage": "https://github.com/WordPress/wordpress-develop.git"
+    }
+  ],
+  "support": {
+    "issues": "http://core.trac.wordpress.org/",
+    "forum": "http://wordpress.org/support/",
+    "wiki": "http://codex.wordpress.org/",
+    "irc": "irc://irc.freenode.net/wordpress",
+    "source": "http://core.trac.wordpress.org/browser"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^6.1"
+  },
+  "require": {
+    "php": ">=7.0"
+  }
 }
